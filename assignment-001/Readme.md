@@ -5,6 +5,7 @@ To Build Simple Calculator. which Perform Simple Arithmatic Operations(+,-,*,/).
 _____________________________________________________
 
 1)Compile *.c files:
+
 $make all
 
 	Makefile Compile all the *.c files and  create *.o ,*.a , *.so files.
