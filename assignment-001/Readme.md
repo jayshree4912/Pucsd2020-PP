@@ -10,6 +10,7 @@ $make all
 	Makefile Compile all the *.c files and  create *.o ,*.a , *.so files.
 
 output of above command:
+
 	gcc -O -c main.c 
 	gcc -O -c add.c 
 	gcc -O -c sub.c
