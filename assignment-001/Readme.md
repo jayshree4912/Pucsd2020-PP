@@ -1,10 +1,14 @@
 Problem Statement:
+
 To Build Simple Calculator. which Perform Simple Arithmatic Operations(+,-,*,/).  
 
-________________TO Run the Code_______________________
+_____________________________________________________
+
 1)Compile *.c files:
 $make all
+
 	Makefile Compile all the *.c files and  create *.o ,*.a , *.so files.
+
 output of above command:
 	gcc -O -c main.c 
 	gcc -O -c add.c 
@@ -19,7 +23,9 @@ ______________________________________________________
 
 2)To Run executable files:
 
-$./myProgram		//where 'myProgram' is Target-object create using above command(executing makefile)
+$./myProgram		
+
+//where 'myProgram' is Target-object create using above command(executing makefile)
 ______________________________________________________
 3)Remove  all *.o , *.a , *.so files from the given directory
 
