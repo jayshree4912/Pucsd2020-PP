@@ -1,0 +1,21 @@
+<h3><b><u>Educational Qualification</u></b></h3>&nbsp;&nbsp;&nbsp;
+<br><br>
+<div class="table" style="background-image:url('assets/img/bg3.jpeg');">
+<table mdbTable>
+    <thead class="grey lighten-1 black-text">
+      <tr>
+        <th *ngFor="let head of headElements" scope="col">{{head}} </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr mdbTableCol *ngFor="let el of elements">
+        <!-- <th scope="row"></th> -->
+        <td>{{el.degree}}</td>
+        <td>{{el.university}}</td>
+        <td>{{el.college}}</td>
+        <td>{{el.year}}</td>
+        <td>{{el.percentage}}</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>

@@ -1,0 +1,34 @@
+
+
+    <!-- logo -->
+    <div style="background-color:#b7ae01">
+      <br>
+      <p class="formRight">
+        <span style="padding-right:1px"></span>
+        
+            <select id="leadType" class="box2" name="lead_type">
+                <option value="1" (click)="create()" style="text-align: center;font-size: 15px;font-weight: bold;display: inline-block;">Create</option>
+                <option value="2" (click)="update()" style="text-align: center;font-size: 15px;font-weight: bold;display: inline-block;">Update</option>
+                <option value="3" (click)="search()" style="text-align: center;font-size: 15px;font-weight: bold;display: inline-block;">Search</option>
+                <option value="4" (click)="delete()" style="text-align: center;font-size: 15px;font-weight: bold;display: inline-block;">Delete</option>
+
+                <!-- <option value="3">3</option> -->
+            </select>
+            <!-- <p class="alignright"> -->
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="alignright" (click)="displayall()" style="background-color:rgb(8, 7, 7);font-weight: bold;display: inline-block;color: white;font-size: 15px ;text-align: center;" class="b1"><h3>Display All Users</h3></button>   
+              <!-- </p> -->
+        </p>
+     <!-- <button (click)="create()">Create</button>
+     <button (click)="update()">Update</button> -->
+     
+     
+    <br>
+    <br>
+      <div class="container" >
+        <router-outlet></router-outlet>
+      </div>
+        
+           
+      <br>
+     </div>
+ 
