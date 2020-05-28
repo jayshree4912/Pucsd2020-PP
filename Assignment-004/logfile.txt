@@ -1,0 +1,10 @@
+[Fri May 22 18:37:53 2020] [test.c][line: 11] Hello World 
+[Fri May 22 18:37:53 2020] [test.c][line: 12] Welcome to Programming Paradigms=> Pucsd 2019-2020:: 1
+[Fri May 22 18:37:53 2020] [test.c][line: 11] Hello World 
+[Fri May 22 18:37:53 2020] [test.c][line: 12] Welcome to Programming Paradigms=> Pucsd 2019-2020:: 2
+[Fri May 22 18:37:53 2020] [test.c][line: 11] Hello World 
+[Fri May 22 18:37:53 2020] [test.c][line: 12] Welcome to Programming Paradigms=> Pucsd 2019-2020:: 3
+[Fri May 22 18:37:53 2020] [test.c][line: 11] Hello World 
+[Fri May 22 18:37:53 2020] [test.c][line: 12] Welcome to Programming Paradigms=> Pucsd 2019-2020:: 4
+[Fri May 22 18:37:53 2020] [test.c][line: 11] Hello World 
+[Fri May 22 18:37:53 2020] [test.c][line: 12] Welcome to Programming Paradigms=> Pucsd 2019-2020:: 5
